@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--This is the root of your config file-->
+<configuration>
+  <!-- Level 0 -->
+  <!--This specifies what the section name is-->
+  <configSections>
+    <!-- Level 1 -->
+    <section name="log4net"
+      type="log4net.Config.Log4NetConfigurationSectionHandler, 
+            log4net"/>
+    <!-- Level 2 -->
+  </configSections>
+  <log4net>
+    <!-- Level 1 -->
+    <appender>
+      <!-- Level 2 -->
+      <layout>
+        <!-- Level 3 -->
+        <conversionPattern />
+        <!-- Level 4 -->
+      </layout>
+      <filter>
+        <!-- Level 3 -->
+      </filter>
+    </appender>
+    <root>
+      <!-- Level 2 -->
+      <level />
+      <!-- Level 3 -->
+      <appender-ref />
+      <!-- Level 3 -->
+    </root>
+    <logger>
+      <!-- Level 2 -->
+      <level />
+      <!-- Level 3 -->
+      <appender-ref />
+      <!-- Level 3 -->
+    </logger>
+  </log4net>
+</configuration>
