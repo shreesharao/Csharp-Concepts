@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorAndDestructor", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SO_Questions", "SO_Questions\SO_Questions.csproj", "{AFEDC889-018C-49CD-AE3D-8A2219C6D503}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garbage Collection", "Garbage Collection\Garbage Collection.csproj", "{D03DC14E-F5F4-4C97-BB8C-3E9D9455C913}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{AFEDC889-018C-49CD-AE3D-8A2219C6D503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFEDC889-018C-49CD-AE3D-8A2219C6D503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFEDC889-018C-49CD-AE3D-8A2219C6D503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03DC14E-F5F4-4C97-BB8C-3E9D9455C913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03DC14E-F5F4-4C97-BB8C-3E9D9455C913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03DC14E-F5F4-4C97-BB8C-3E9D9455C913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03DC14E-F5F4-4C97-BB8C-3E9D9455C913}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

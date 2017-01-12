@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConstructorAndDestructor
 {
-    public class Worker
+    public class Worker:IDisposable
     {
         public Worker()
         {
@@ -23,6 +23,14 @@ namespace ConstructorAndDestructor
         ~Worker()
         {
             Console.WriteLine("Destructor");
+        }
+        public void Test()
+        {
+            Console.WriteLine("test method called");
+        }
+        public void Dispose()
+        {
+            Console.WriteLine("Dispose");
         }
     }
 }

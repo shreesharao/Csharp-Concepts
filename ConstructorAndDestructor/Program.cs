@@ -42,14 +42,23 @@ namespace ConstructorAndDestructor
         static void Main(string[] args)
         {
             Worker worker;
-            worker = new Worker();
+            for (int i = 0; i < 10000; i++)//will it create new objects::yes
+            {
+            worker = new Worker();    
+            }
+
+            using(Worker worker1=new Worker())
+            {
+                worker1.Test();
+            }
+            //worker = new Worker();
             Console.WriteLine("Program ended");
             worker = null;
             GC.Collect();
             worker = new Worker();
             Console.WriteLine("worker.ToString() called");
             // worker.ToString();
-
+            GC.Collect();
 
         }
 
