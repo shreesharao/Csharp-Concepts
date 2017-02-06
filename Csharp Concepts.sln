@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garbage Collection", "Garba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{E3E8C19B-9E2A-4BBE-9B0B-358B756C3D3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel Programming", "Parallel Programming\Parallel Programming.csproj", "{3EAE2A8A-4196-49FB-BC1C-465309C74BA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E3E8C19B-9E2A-4BBE-9B0B-358B756C3D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3E8C19B-9E2A-4BBE-9B0B-358B756C3D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3E8C19B-9E2A-4BBE-9B0B-358B756C3D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAE2A8A-4196-49FB-BC1C-465309C74BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAE2A8A-4196-49FB-BC1C-465309C74BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAE2A8A-4196-49FB-BC1C-465309C74BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAE2A8A-4196-49FB-BC1C-465309C74BA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
