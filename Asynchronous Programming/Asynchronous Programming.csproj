@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3EAE2A8A-4196-49FB-BC1C-465309C74BA2}</ProjectGuid>
+    <ProjectGuid>{EA0DDBB7-5D44-4A59-BF6C-8BFE727FD841}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Parallel_Programming</RootNamespace>
-    <AssemblyName>Parallel Programming</AssemblyName>
+    <RootNamespace>Asynchronous_Programming</RootNamespace>
+    <AssemblyName>Asynchronous Programming</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsyncAwait.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

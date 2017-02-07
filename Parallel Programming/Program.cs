@@ -10,12 +10,7 @@ namespace Parallel_Programming
     {
         static void Main(string[] args)
         {
-            //string async; //async is an identifier here
-
-            //call sync method
-            new AsyncAwait().SyncMethod();
-            Console.WriteLine("This must be the first line");
-            Console.Read();
+            
 
             
         }

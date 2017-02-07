@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Parallel_Programming
+namespace Asynchronous_Programming
 {
     class AsyncAwait
     {
-        public async void SyncMethod()
+        public async void MethodAsync()
         {
             int result = await AsyncMethod();
             Console.WriteLine("result of async method:" + result);
