@@ -13,8 +13,13 @@ namespace Asynchronous_Programming
             //string async; //async is an identifier here
 
             //call sync method
-            new AsyncAwait().MethodAsync();
+            var AsyncAwait=new AsyncAwait();
+            AsyncAwait.MethodAsync();
             Console.WriteLine("This must be the first line");
+            Console.WriteLine("Main:" + System.Threading.Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("Main:IsThreadPoolThread:" + System.Threading.Thread.CurrentThread.IsThreadPoolThread);
+
+            
             Console.Read();
         }
     }
