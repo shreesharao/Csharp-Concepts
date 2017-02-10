@@ -10,11 +10,8 @@ namespace Parallel_Programming
     {
         static void Main(string[] args)
         {
-            
-
-            
+            TaskEx.TaskRun();
+            Console.ReadLine();
         }
-
-       
     }
 }
