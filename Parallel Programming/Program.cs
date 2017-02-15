@@ -10,10 +10,17 @@ namespace Parallel_Programming
     {
         static void Main(string[] args)
         {
-           // TaskEx.TaskRun();
+            //TaskEx.TaskRun();
+            //TaskEx.TaskConstructorStart();
+            //TaskEx.CalculateSum();
 
-            new ParallelEx().Entry();
-            Console.ReadLine();
+            //  new ParallelEx().Entry();
+            //new ParallelEx().CallPrint();
+            new ParallelEx().ForEachCallPrint();
+            // System.Threading.Thread.Sleep(2000);
+
+            //  new ThreadPoolEx().Entry();
+            Console.ReadKey();
         }
     }
 }

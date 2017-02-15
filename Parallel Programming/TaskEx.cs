@@ -36,16 +36,23 @@ namespace Parallel_Programming
         #region TaskConstructorStart
         public static async Task TaskConstructorStart()
         {
+            Console.Write(string.Empty);
             //avoid this way
-            Task task = new Task(new Action(() => NamedMethod()));
-            await task; //no use of await i think
+            Task task = new Task(new Action(() => NamedMethod()), TaskCreationOptions.LongRunning);
             task.Start();
+            //await task; //no use of await i think
+            await task.ContinueWith(t =>
+            {
+                Console.WriteLine("Message from continuewith");
+            });
+
+
         }
 
         public static void NamedMethod()
         {
             Console.WriteLine("Message from named method");
-        } 
+        }
         #endregion
 
         #region TaskFromResult
@@ -57,7 +64,25 @@ namespace Parallel_Programming
         private int GetSum(int a, int b)
         {
             return a + b;
-        } 
+        }
+        #endregion
+
+        #region Task<Tresult>.Result
+        public static void CalculateSum()
+        {
+            Task<double>[] taskArray ={
+                                       Task<double>.Factory.StartNew(()=>sum(2,3)),
+                                       Task<double>.Factory.StartNew(()=>sum(4,6))
+                                   };
+            for (int i = 0; i < taskArray.Length; i++)
+            {
+                Console.WriteLine("Result:"+taskArray[i].Result);
+            }
+        }
+        public static double sum(int a, int b)
+        {
+            return a + b;
+        }
         #endregion
 
     }
