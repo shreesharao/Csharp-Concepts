@@ -14,9 +14,9 @@ namespace Parallel_Programming
             //TaskEx.TaskConstructorStart();
             //TaskEx.CalculateSum();
 
-            //  new ParallelEx().Entry();
-            //new ParallelEx().CallPrint();
-            new ParallelEx().ForEachCallPrint();
+            // new ParallelEx().Entry();
+            new ParallelEx().CallPrint();
+            //new ParallelEx().ForEachCallPrint();
             // System.Threading.Thread.Sleep(2000);
 
             //  new ThreadPoolEx().Entry();
