@@ -30,14 +30,27 @@ namespace Threading
         }
         #endregion
 
-        #region ParameterizedThreadStart 
+        #region ParameterizedThreadStart
         public static void ParamThreadStart()
         {
-            Thread thread = new Thread(MsgPrint);
+            Thread thread = new Thread(ObjMsgPrint);
             thread.Start("Hello");
         }
 
-        private static void MsgPrint(object msg)
+        private static void ObjMsgPrint(object msg)
+        {
+            Console.WriteLine(msg);
+        }
+        #endregion
+
+        #region using lambda expression
+        public static void LambdaThreadStart()
+        {
+            Thread thread = new Thread(()=>StringMsgPrint("Hello"));
+            thread.Start();
+        }
+
+        private static void StringMsgPrint(string msg)
         {
             Console.WriteLine(msg);
         }
@@ -141,7 +154,7 @@ namespace Threading
         public static void JoinEx()
         {
             ThreadEx obj = new ThreadEx();
-            Thread thread=new Thread(JoinPrint);
+            Thread thread = new Thread(JoinPrint);
             thread.Start();
             thread.Join(1000);//returns true if method ends.retrun false on timeout
         }
@@ -161,7 +174,7 @@ namespace Threading
         public static void SleepEx()
         {
             ThreadEx obj = new ThreadEx();
-            Thread thread=new Thread(SleepPrint);
+            Thread thread = new Thread(SleepPrint);
             thread.Start();
             Thread.Sleep(1000);//returns true if method ends.retrun false on timeout
         }
