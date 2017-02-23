@@ -9,6 +9,7 @@ namespace Log4Net
     /*
      * log4net understanding
      * 7 levels of logging: OFF - nothing gets logged (cannot be called),FATAL,ERROR,WARN,INFO,DEBUG,ALL - everything gets logged (cannot be called)
+     *log4net works without config file also.it uses default configuration.
      */
     //
     /// <summary>
