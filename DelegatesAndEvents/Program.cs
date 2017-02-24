@@ -11,7 +11,8 @@ namespace DelegatesAndEvents
         static void Main(string[] args)
         {
            // DelegateEx.Call();
-            DelegateEx.CallMulticast();
+           // DelegateEx.CallMulticast();
+            DelegateEx.CallMulticastIndividualResult();
             Console.Read();
         }
     }
