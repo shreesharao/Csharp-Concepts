@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndEvents", "Deleg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{17899E07-1893-4677-B367-48A45658B950}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerEarth", "HackerEarth\HackerEarth.csproj", "{65DF0863-4EB8-4A15-BFE7-046F20E20D59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{17899E07-1893-4677-B367-48A45658B950}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17899E07-1893-4677-B367-48A45658B950}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17899E07-1893-4677-B367-48A45658B950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DF0863-4EB8-4A15-BFE7-046F20E20D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DF0863-4EB8-4A15-BFE7-046F20E20D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DF0863-4EB8-4A15-BFE7-046F20E20D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DF0863-4EB8-4A15-BFE7-046F20E20D59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
