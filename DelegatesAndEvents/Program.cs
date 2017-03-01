@@ -10,9 +10,12 @@ namespace DelegatesAndEvents
     {
         static void Main(string[] args)
         {
-           // DelegateEx.Call();
-           // DelegateEx.CallMulticast();
-            DelegateEx.CallMulticastIndividualResult();
+            // DelegateEx.Call();
+            // DelegateEx.CallMulticast();
+            //DelegateEx.CallMulticastIndividualResult();
+
+            EventsEx.Write();
+
             Console.Read();
         }
     }
