@@ -16,6 +16,8 @@ namespace DelegatesAndEvents
 
             EventsEx.Write();
 
+            AsyncCallbackEx.MainEntry();
+
             Console.Read();
         }
     }
