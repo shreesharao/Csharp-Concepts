@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerEarth", "HackerEarth\HackerEarth.csproj", "{65DF0863-4EB8-4A15-BFE7-046F20E20D59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceAndContravariance", "CovarianceAndContravariance\CovarianceAndContravariance.csproj", "{DE885A90-EABC-4FBA-ABB7-A103C4A77C95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{65DF0863-4EB8-4A15-BFE7-046F20E20D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65DF0863-4EB8-4A15-BFE7-046F20E20D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65DF0863-4EB8-4A15-BFE7-046F20E20D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE885A90-EABC-4FBA-ABB7-A103C4A77C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE885A90-EABC-4FBA-ABB7-A103C4A77C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE885A90-EABC-4FBA-ABB7-A103C4A77C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE885A90-EABC-4FBA-ABB7-A103C4A77C95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
