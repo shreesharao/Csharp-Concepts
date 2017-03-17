@@ -43,7 +43,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortedListEx.cs" />
+    <Compile Include="System_Collections\BitArrayEx.cs" />
+    <Compile Include="System_Collections\QueueEx.cs" />
+    <Compile Include="System_Collections_Specialized\StringCollectionEx.cs" />
+    <Compile Include="System_Collections\ArrayListEx.cs" />
+    <Compile Include="System_Collections\SortedListEx.cs" />
+    <Compile Include="System_Collections\StackEx.cs" />
+    <Compile Include="System_Collections_Specialized\StringDictionaryEx.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

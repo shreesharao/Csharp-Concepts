@@ -5,13 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Collections
+namespace Collections.System.Collections
 {
     class SortedListEx
     {
+        
         SortedList _sortedList = new SortedList();
         Dictionary<string, object> _currentSortValues = new Dictionary<string, object>();
-
+        
         public void AddToList()
         {
             _currentSortValues.Add("QueryMe", "ABC");
