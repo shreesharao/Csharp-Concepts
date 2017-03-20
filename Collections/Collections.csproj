@@ -44,6 +44,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="System_Collections\BitArrayEx.cs" />
+    <Compile Include="System_Collections\HashtableEx.cs" />
     <Compile Include="System_Collections\QueueEx.cs" />
     <Compile Include="System_Collections_Specialized\StringCollectionEx.cs" />
     <Compile Include="System_Collections\ArrayListEx.cs" />

@@ -9,7 +9,7 @@ namespace Collections.System.Collections
     class BitArrayEx
     {
         BitArray objBitArray = new BitArray(5,false);
-
+        
         public void Entry()
         {
             objBitArray.Not();

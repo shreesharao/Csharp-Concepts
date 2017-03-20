@@ -13,7 +13,9 @@ namespace Collections
 
             //new System_Collections_Ex.SortedListEx().AddToList();
             //new System_Collections_Ex.ArrayListEx().Entry();
-            new System_Collections_Ex.BitArrayEx().Entry();
+            //new System_Collections_Ex.BitArrayEx().Entry();
+            //new System_Collections_Ex.HashtableEx().Entry();
+            new System_Collections_Ex.SortedListEx().Entry();
             Console.Read();
         }
     }
