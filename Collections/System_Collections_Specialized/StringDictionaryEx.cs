@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Collections.System_Collections_Specialized
+namespace Collections.System.Collections.Specialized
 {
     class StringDictionaryEx
     {

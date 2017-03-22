@@ -46,6 +46,9 @@
     <Compile Include="System_Collections\BitArrayEx.cs" />
     <Compile Include="System_Collections\HashtableEx.cs" />
     <Compile Include="System_Collections\QueueEx.cs" />
+    <Compile Include="System_Collections_Specialized\HybridDictionaryEx.cs" />
+    <Compile Include="System_Collections_Specialized\ListDictionaryEx.cs" />
+    <Compile Include="System_Collections_Specialized\NameValueCollectionEx.cs" />
     <Compile Include="System_Collections_Specialized\StringCollectionEx.cs" />
     <Compile Include="System_Collections\ArrayListEx.cs" />
     <Compile Include="System_Collections\SortedListEx.cs" />
