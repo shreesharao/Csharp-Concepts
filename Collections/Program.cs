@@ -18,7 +18,8 @@ namespace Collections
             //new System_Collections_Ex.HashtableEx().Entry();
             //new System_Collections_Ex.SortedListEx().Entry();
             //new System_Collections_Specialized_Ex.HybridDictionaryEx().Entry();
-            new System_Collections_Specialized_Ex.NameValueCollectionEx().Entry();
+            //new System_Collections_Specialized_Ex.NameValueCollectionEx().Entry();
+            new System_Collections_Specialized_Ex.OrderedDictionaryEx().Entry();
             Console.Read();
         }
     }

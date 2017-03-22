@@ -49,6 +49,7 @@
     <Compile Include="System_Collections_Specialized\HybridDictionaryEx.cs" />
     <Compile Include="System_Collections_Specialized\ListDictionaryEx.cs" />
     <Compile Include="System_Collections_Specialized\NameValueCollectionEx.cs" />
+    <Compile Include="System_Collections_Specialized\OrderedDictionaryEx.cs" />
     <Compile Include="System_Collections_Specialized\StringCollectionEx.cs" />
     <Compile Include="System_Collections\ArrayListEx.cs" />
     <Compile Include="System_Collections\SortedListEx.cs" />
