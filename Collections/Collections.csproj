@@ -43,18 +43,30 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="System_Collections\BitArrayEx.cs" />
-    <Compile Include="System_Collections\HashtableEx.cs" />
-    <Compile Include="System_Collections\QueueEx.cs" />
-    <Compile Include="System_Collections_Specialized\HybridDictionaryEx.cs" />
-    <Compile Include="System_Collections_Specialized\ListDictionaryEx.cs" />
-    <Compile Include="System_Collections_Specialized\NameValueCollectionEx.cs" />
-    <Compile Include="System_Collections_Specialized\OrderedDictionaryEx.cs" />
-    <Compile Include="System_Collections_Specialized\StringCollectionEx.cs" />
-    <Compile Include="System_Collections\ArrayListEx.cs" />
-    <Compile Include="System_Collections\SortedListEx.cs" />
-    <Compile Include="System_Collections\StackEx.cs" />
-    <Compile Include="System_Collections_Specialized\StringDictionaryEx.cs" />
+    <Compile Include="System.Collections.Generic\DictionaryEx.cs" />
+    <Compile Include="System.Collections.Generic\HashSetEx.cs" />
+    <Compile Include="System.Collections.Generic\KeyedByTypeCollectionEx.cs" />
+    <Compile Include="System.Collections.Generic\LinkedListEx.cs" />
+    <Compile Include="System.Collections.Generic\ListEx.cs" />
+    <Compile Include="System.Collections.Generic\QueueEx.cs" />
+    <Compile Include="System.Collections.Generic\SortedDictionaryEx.cs" />
+    <Compile Include="System.Collections.Generic\SortedListEx.cs" />
+    <Compile Include="System.Collections.Generic\StackEx.cs" />
+    <Compile Include="System.Collections.Generic\SynchronizedCollectionEx.cs" />
+    <Compile Include="System.Collections.Generic\SynchronizedKeyedCollectionEx.cs" />
+    <Compile Include="System.Collections.Generic\SynchronizedReadOnlyCollectionEx.cs" />
+    <Compile Include="System.Collections\BitArrayEx.cs" />
+    <Compile Include="System.Collections\HashtableEx.cs" />
+    <Compile Include="System.Collections\QueueEx.cs" />
+    <Compile Include="System.Collections.Specialized\HybridDictionaryEx.cs" />
+    <Compile Include="System.Collections.Specialized\ListDictionaryEx.cs" />
+    <Compile Include="System.Collections.Specialized\NameValueCollectionEx.cs" />
+    <Compile Include="System.Collections.Specialized\OrderedDictionaryEx.cs" />
+    <Compile Include="System.Collections.Specialized\StringCollectionEx.cs" />
+    <Compile Include="System.Collections\ArrayListEx.cs" />
+    <Compile Include="System.Collections\SortedListEx.cs" />
+    <Compile Include="System.Collections\StackEx.cs" />
+    <Compile Include="System.Collections.Specialized\StringDictionaryEx.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
