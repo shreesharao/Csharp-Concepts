@@ -16,6 +16,8 @@ namespace Collections.System.Collections.Generic
             objList.Add('s');
             objList.Add('s');
             objList.Add('r');
+
+            Console.WriteLine(objList[1]); //indexing is possible
             foreach (var item in objList)
             {
                 Console.WriteLine(item);
