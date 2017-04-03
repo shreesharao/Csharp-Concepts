@@ -21,8 +21,10 @@ namespace Collections
             //new System_Collections_Specialized_Ex.HybridDictionaryEx().Entry();
             //new System_Collections_Specialized_Ex.NameValueCollectionEx().Entry();
             //new System_Collections_Specialized_Ex.OrderedDictionaryEx().Entry();
-            new System_Collections_Generic_Ex.HashSetEx().Entry();
+           // new System_Collections_Generic_Ex.HashSetEx().Entry();
             //new System_Collections_Generic_Ex.ListEx().Entry();
+            //new System_Collections_Generic_Ex.LinkedListEx().Entry();
+            new System_Collections_Generic_Ex.SortedDictionaryEx().Entry();
             Console.Read();
         }
     }
