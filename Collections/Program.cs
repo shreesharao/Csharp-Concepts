@@ -24,7 +24,8 @@ namespace Collections
            // new System_Collections_Generic_Ex.HashSetEx().Entry();
             //new System_Collections_Generic_Ex.ListEx().Entry();
             //new System_Collections_Generic_Ex.LinkedListEx().Entry();
-            new System_Collections_Generic_Ex.SortedDictionaryEx().Entry();
+            //new System_Collections_Generic_Ex.SortedDictionaryEx().Entry();
+            new System_Collections_Generic_Ex.KeyedByTypeCollectionEx().Entry();
             Console.Read();
         }
     }
