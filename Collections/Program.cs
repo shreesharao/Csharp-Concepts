@@ -28,7 +28,8 @@ namespace Collections
             //new System_Collections_Generic_Ex.SortedDictionaryEx().Entry();
             //new System_Collections_Generic_Ex.KeyedByTypeCollectionEx().Entry();
             //new System_Collections_Generic_Ex.SynchronizedReadOnlyCollectionEx().Entry();
-            new System_Collections_Concurrent_Ex.BlockingCollectionEx().Entry();
+            //new System_Collections_Concurrent_Ex.BlockingCollectionEx().Entry();
+            new System_Collections_Concurrent_Ex.ConcurrentDictionaryEx().Entry();
             Console.Read();
         }
     }
