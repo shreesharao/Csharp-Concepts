@@ -44,9 +44,11 @@ namespace Collections.System.Collections.Concurrent
             await Task.Run(() =>
             {
                 Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
-                for (int i = 10; i < 20; i++)
+                for (int i = 0; i < 10; i++)
                 {
-                    objConcurrentDictionary.TryAdd(i, "value" + i);
+                    Console.WriteLine("existing:" + objConcurrentDictionary[i]);
+                    //objConcurrentDictionary.TryAdd(i, "value" + i);
+                    objConcurrentDictionary.AddOrUpdate(i, "value" + i, (key, value) => "updatedvalue" + i + 1);
                     //objConcurrentDictionary.Add(i, "value" + i);
                 }
             });
