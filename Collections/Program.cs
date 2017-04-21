@@ -31,7 +31,9 @@ namespace Collections
             //new System_Collections_Concurrent_Ex.BlockingCollectionEx().Entry();
             //new System_Collections_Concurrent_Ex.ConcurrentDictionaryEx().Entry();
             //new System_Collections_Concurrent_Ex.ConcurrentStackEx().Entry();
-            new System_Collections_Concurrent_Ex.ConcurrentQueueEx().Entry();
+            //new System_Collections_Concurrent_Ex.ConcurrentQueueEx().Entry();
+            //new System_Collections_Concurrent_Ex.OrderablePartitionerEx().Entry();
+            new System_Collections_Concurrent_Ex.PartitionerEx().Entry();
             Console.Read();
         }
     }

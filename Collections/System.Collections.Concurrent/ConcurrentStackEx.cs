@@ -30,6 +30,7 @@ namespace Collections.System.Collections.Concurrent
             // Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
             for (int i = 0; i < 100; i++)
             {
+                
              //   objConcurrentStack.PushRange()
                 objConcurrentStack.Push(string.Format("{0}:{1}", Thread.CurrentThread.ManagedThreadId, i));
             }
