@@ -35,7 +35,7 @@ namespace Collections.System.Collections.Concurrent
                 Stopwatch watch = new Stopwatch();
                 watch.Reset();
                 watch.Start();
-                Partitioner<Tuple<int, int>> chunkPart = Partitioner.Create(0, input.Length, 5000);
+                Partitioner<Tuple<int, int>> chunkPart = Partitioner.Create((0, input.Length, 5000);
                 Parallel.ForEach(chunkPart, chunkRange =>
                 {
                     Console.WriteLine("Thread:{0}",Thread.CurrentThread.ManagedThreadId);
