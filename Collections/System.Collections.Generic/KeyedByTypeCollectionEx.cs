@@ -13,11 +13,12 @@ namespace Collections.System.Collections.Generic
         public void Entry()
         {
             objKeyedByTypeCollection.Add(1);
+            //objKeyedByTypeCollection.Add(2);//throws exception
             objKeyedByTypeCollection.Add("test");
             objKeyedByTypeCollection.Add('c');
 
             var item = objKeyedByTypeCollection.FindAll<int>(); //type safe
-            Console.WriteLine(item);
+            item.ToList().ForEach(x => Console.WriteLine(x.ToString()));
         }
     }
 }
