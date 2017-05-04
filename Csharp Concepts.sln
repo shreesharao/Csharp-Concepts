@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticConstructor", "Static
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorAndDestructor", "ConstructorAndDestructor\ConstructorAndDestructor.csproj", "{FE53B88C-FEAE-4063-BF89-340335C3DE92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SO_Questions", "SO_Questions\SO_Questions.csproj", "{AFEDC889-018C-49CD-AE3D-8A2219C6D503}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet store", "SO_Questions\DotNet store.csproj", "{AFEDC889-018C-49CD-AE3D-8A2219C6D503}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garbage Collection", "Garbage Collection\Garbage Collection.csproj", "{D03DC14E-F5F4-4C97-BB8C-3E9D9455C913}"
 EndProject

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SO_Questions
+namespace DotNet_store
 {
     /*I'M TRYING TO FIGURE OUT HOW TO DEFINE IF STRING CONTAINS/DOES NOT CONTAINS LIST VALUE AND
      * IF CONTAINS BUT WITH OTHER VALUE.
      * 
      */
-    class Question1
+    class Topic_2
     {
         private static string opDisplay;
         public static void Run()

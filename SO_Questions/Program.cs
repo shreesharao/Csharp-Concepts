@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SO_Questions
+namespace DotNet_store
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Question1.Run();
+            Topic_1.Entry();
+            //Topic_2.Run();
+
+            Console.Read();
         }
     }
 }
