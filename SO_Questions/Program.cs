@@ -10,9 +10,9 @@ namespace DotNet_store
     {
         static void Main(string[] args)
         {
-            Topic_1.Entry();
+            //Topic_1.Entry();
             //Topic_2.Run();
-
+            new Topic_3().Entry();
             Console.Read();
         }
     }
