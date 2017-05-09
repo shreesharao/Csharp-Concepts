@@ -12,7 +12,9 @@ namespace DotNet_store
         {
             //Topic_1.Entry();
             //Topic_2.Run();
-            new Topic_3().Entry();
+            //new Topic_3().Entry();
+            //new Topic_4().Entry();
+            new Topic_6().Entry();
             Console.Read();
         }
     }
