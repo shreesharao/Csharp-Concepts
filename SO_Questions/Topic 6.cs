@@ -11,6 +11,7 @@ namespace DotNet_store
         private int i = 0; //changing i to static variable will crash the compiler.It is a bug in native compiler
         public void Entry()
         {
+            
             for (int i = 0; i < 100; i++)
             {
                 var tasks = new List<Task>{
