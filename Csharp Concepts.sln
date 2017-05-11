@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{34F78790-5D2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFileHandler", "TextFileHandler\TextFileHandler.csproj", "{095AEA18-A930-4DA2-BF6B-6E8F5B98D3DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExHTTPModule", "ExHTTPModule\ExHTTPModule.csproj", "{BA43B4A7-E489-4631-9A26-AD5E3C094C05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,11 +115,16 @@ Global
 		{095AEA18-A930-4DA2-BF6B-6E8F5B98D3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{095AEA18-A930-4DA2-BF6B-6E8F5B98D3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{095AEA18-A930-4DA2-BF6B-6E8F5B98D3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA43B4A7-E489-4631-9A26-AD5E3C094C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA43B4A7-E489-4631-9A26-AD5E3C094C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA43B4A7-E489-4631-9A26-AD5E3C094C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA43B4A7-E489-4631-9A26-AD5E3C094C05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{095AEA18-A930-4DA2-BF6B-6E8F5B98D3DE} = {34F78790-5D22-4C89-AB51-4E08C0EC1519}
+		{BA43B4A7-E489-4631-9A26-AD5E3C094C05} = {34F78790-5D22-4C89-AB51-4E08C0EC1519}
 	EndGlobalSection
 EndGlobal
