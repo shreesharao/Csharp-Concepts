@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web;
+using System.Net;
 
 namespace ExHTTPModule
 {
@@ -23,6 +24,7 @@ namespace ExHTTPModule
 
         void context_AuthorizeRequest(object sender, EventArgs e)
         {
+            //If you want to perform custom authentication logic, write code here
             HttpContext context = ((HttpApplication)sender).Context;
 
             if (context.Request.RawUrl.Contains(".snp"))
@@ -37,7 +39,11 @@ namespace ExHTTPModule
 
         void context_EndRequest(object sender, EventArgs e)
         {
-            //no need to do  anything here.
+            // if you want to append something to responses, wrtie code here
+            //not tested below code
+                //HttpContext context = ((HttpApplication)sender).Context;
+                //context.Response.StatusCode = (int) HttpStatusCode.NotFound;
+            //
         }
 
         void context_PreRequestHandlerExecute(object sender, EventArgs e)
