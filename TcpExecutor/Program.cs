@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
+
 using TcpClient;
 using TcpListner;
 
@@ -17,7 +19,7 @@ namespace TcpExecutor
             var _port = 9169;
 
 
-           // InitTcpListner(_ip,_port);
+           // InitTcpListner(_ip, _port);
             SendRequest(_ip,_port);
             var resp = ReadResponse();
             Console.WriteLine(resp);
@@ -33,8 +35,14 @@ namespace TcpExecutor
         private static void SendRequest(string ip,int port)
         {
             _client= new Client(ip,port);
-            _client.WriteRquest("Request message");
+            _client.WriteRquest(GetQuery());
 
+        }
+
+        private static string GetQuery()
+        {
+            string queries =File.ReadAllText(@"../../Queries.txt");
+            return queries.Trim();
         }
 
         private static void InitTcpListner(string ip,int port)

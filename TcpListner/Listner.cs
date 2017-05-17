@@ -47,7 +47,9 @@ namespace TcpListner
             using (Stream stream = new Sockets.NetworkStream(socket))
             {
                 byte[] reqBuf = new byte[sizeof(Int32)];
-                int bytesRead = stream.Read(reqBuf, 0, sizeof(Int32));
+                byte[] reqSizeBuf = new byte[sizeof(Int32)];
+                int bytesRead = stream.Read(reqSizeBuf, 0, sizeof(Int32));
+                int requestSize = BitConverter.ToInt32(reqSizeBuf, 0) - sizeof(Int32);
                 string request = Encoding.UTF8.GetString(reqBuf);
             }
 
