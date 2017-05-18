@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpListner", "TcpListner\Tc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpExecutor", "TcpExecutor\TcpExecutor.csproj", "{5097FD48-A099-4C04-A2A0-4076B299548A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestingProject", "UnitTestingProject\UnitTestingProject.csproj", "{F96B83E1-3046-4F84-8E88-7B969A0FD675}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +141,10 @@ Global
 		{5097FD48-A099-4C04-A2A0-4076B299548A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5097FD48-A099-4C04-A2A0-4076B299548A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5097FD48-A099-4C04-A2A0-4076B299548A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96B83E1-3046-4F84-8E88-7B969A0FD675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96B83E1-3046-4F84-8E88-7B969A0FD675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96B83E1-3046-4F84-8E88-7B969A0FD675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96B83E1-3046-4F84-8E88-7B969A0FD675}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

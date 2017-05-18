@@ -28,6 +28,34 @@ namespace Log4Net
             log.Fatal("fatal logged");
         }
 
+        //this method can not be used from outside because log4net is an exe not dll.
+
+        //public void Write(string message,string level="Debug")
+        //{
+        //    switch (level)
+        //    {
+        //        case "Debug":
+        //            log.Debug(message);
+        //            break;
+        //        case "Info":
+        //            log.Info(message);
+        //            break;
+        //        case "Warn":
+        //            log.Warn(message);
+        //            break;
+        //        case "Error":
+        //            log.Error(message);
+        //            break;
+        //        case "Fatal":
+        //            log.Fatal(message);
+        //            break;
+        //        default:
+        //            log.Debug(message);
+        //            break;
+        //    }
+
+        //}
+
 
     }
 }
