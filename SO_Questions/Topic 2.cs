@@ -48,6 +48,7 @@ namespace DotNet_store
             {
                 opDisplay = "string does not contains list value";
             }
+            Console.WriteLine(opDisplay);
             #endregion
         }
 
