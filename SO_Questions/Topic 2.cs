@@ -13,6 +13,7 @@ namespace DotNet_store
     class Topic_2
     {
         private static string opDisplay;
+        
         public static void Run()
         {
             string inputString = "zero was one ";

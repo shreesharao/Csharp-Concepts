@@ -45,7 +45,16 @@ namespace TcpClient
 
         public void WriteRquest(string query)
         {
+            query = GetTransactionId() + query;
+            Int32 length = query.Length + sizeof(Int32);
+            NetworkStream.Write(BitConverter.GetBytes(length), 0, sizeof(Int32));
             NetworkStream.Write(Encoding.UTF8.GetBytes(query), 0, query.Length);
+        }
+
+        private string GetTransactionId()
+        {
+            return String.Format("{0}_{1:00000}#@#", Environment.MachineName,
+                 System.Diagnostics.Process.GetCurrentProcess().Id);
         }
 
         public string ReadResponse()

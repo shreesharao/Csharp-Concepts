@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpExecutor", "TcpExecutor\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestingProject", "UnitTestingProject\UnitTestingProject.csproj", "{F96B83E1-3046-4F84-8E88-7B969A0FD675}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{66D0A522-24A3-4424-97C8-BBC7910BC06C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
