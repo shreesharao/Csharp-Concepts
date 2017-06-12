@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 
@@ -21,11 +22,18 @@ namespace Log4Net
 
         static void Main(string[] args)
         {
+            Entry();
+            Console.Read();
+        }
+
+        public static void Entry()
+        {
             log.Debug("debug logged");
             log.Info("info logged");
             log.Warn("warn logged");
             log.Error("error logged");
             log.Fatal("fatal logged");
+          
         }
 
         //this method can not be used from outside because log4net is an exe not dll.
