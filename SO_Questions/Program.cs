@@ -16,7 +16,8 @@ namespace DotNet_store
             //new Topic_4().Entry();
             //new Topic_6().Entry();
             //new Topic_7().Entry();
-            new Topic_8().Entry();
+            //new Topic_8().Entry();
+            new Topic_9().Entry();
             Console.Read();
         }
     }
