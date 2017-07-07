@@ -10,3 +10,4 @@ Topic 6:Interlocked Class
 Topic 7:PropertyInfo and dynamic keyword
 Topic 8:checked keyword
 Topic 9: StackFrame Class :Getting calling method name
+Topic 10:beforefieldinit flag :strange behaviour in type initialization
