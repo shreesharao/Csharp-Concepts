@@ -19,20 +19,23 @@ namespace Collections
             //new System_Collections_Ex.BitArrayEx().Entry();
             //new System_Collections_Ex.HashtableEx().Entry();
             //new System_Collections_Ex.SortedListEx().Entry();
+
             //new System_Collections_Specialized_Ex.HybridDictionaryEx().Entry();
             //new System_Collections_Specialized_Ex.NameValueCollectionEx().Entry();
-           new System_Collections_Specialized_Ex.OrderedDictionaryEx().Entry();
+           //new System_Collections_Specialized_Ex.OrderedDictionaryEx().Entry();
            // new System_Collections_Generic_Ex.HashSetEx().Entry();
             //new System_Collections_Generic_Ex.ListEx().Entry();
             //new System_Collections_Generic_Ex.LinkedListEx().Entry();
             //new System_Collections_Generic_Ex.SortedDictionaryEx().Entry();
             //new System_Collections_Generic_Ex.KeyedByTypeCollectionEx().Entry();
             //new System_Collections_Generic_Ex.SynchronizedReadOnlyCollectionEx().Entry();
+            
             //new System_Collections_Concurrent_Ex.BlockingCollectionEx().Entry();
+            //new System_Collections_Concurrent_Ex.ConcurrentBagEx().Entry();
             //new System_Collections_Concurrent_Ex.ConcurrentDictionaryEx().Entry();
             //new System_Collections_Concurrent_Ex.ConcurrentStackEx().Entry();
             //new System_Collections_Concurrent_Ex.ConcurrentQueueEx().Entry();
-            //new System_Collections_Concurrent_Ex.OrderablePartitionerEx().Entry();
+            new System_Collections_Concurrent_Ex.OrderablePartitionerEx().Entry();
            // new System_Collections_Concurrent_Ex.PartitionerEx().Entry();
             Console.Read();
         }
