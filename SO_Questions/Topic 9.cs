@@ -14,7 +14,34 @@ namespace DotNet_store
         {
             StackFrame stackFrame = new StackFrame(2);
             Console.WriteLine(stackFrame.GetMethod().DeclaringType);
+
+            try
+            {
+                Method2();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.StackTrace);
+            }
         }
-        
+        public void Method2()
+        {
+            try
+            {
+                StackTrace stackTrace = new StackTrace();
+                StackFrame stackFrame = stackTrace.GetFrame(1);
+                Console.WriteLine(stackFrame.GetMethod().DeclaringType);
+
+                throw new NullReferenceException();
+            }
+            catch(Exception e)
+            {
+                StackTrace st = new StackTrace();
+                Console.WriteLine(st.ToString());
+                throw e;
+            }
+            
+        }
+
     }
 }
