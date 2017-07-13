@@ -7,9 +7,12 @@ namespace Builder_Pattern
 {
     interface IBuilder
     {
-        void BuildPart1();
-        void BuildPart2();
-        void BuildPart3();
-        Product GetProduct();
+        void SetType();
+        void SetColor();
+        void SetEngine();
+        void SetModel();
+        void SetTopSpeed();
+        void SetAccessories();
+        Vehicle GetVehicle();
     }
 }
