@@ -15,9 +15,17 @@ namespace DotNet_store
             var type = num; //just to suppress warnings that 'num' is assigned but not used.not related to this topic
             string str = "test";
             string str1 = "test";
+            string str3 = "test1".Substring(0, 4);
+            object str4 = str3;
 
             Console.WriteLine(str == str1);
             Console.WriteLine(str.Equals(str1));
+
+            Console.WriteLine(str == str3);
+            Console.WriteLine(str.Equals(str3));
+
+            Console.WriteLine(str == str4);
+            Console.WriteLine(str.Equals(str4));
 
             Topic_4 obj = new Topic_4();
             obj.num = 15;
