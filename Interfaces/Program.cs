@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Interfaces
 {
     /*WHAT I OBSERVED
-     * interfaces can not contain fields ex:int x
+     * interfaces can not contain fields ex:int x. but can contain properties
      * interfaces can  only contain function declarations
      * inheriting class must provide definition of interface members
      * the method must be public in child class otherwise we will get error
@@ -35,13 +35,13 @@ namespace Interfaces
 
         public static void Test(object o)
         {
-            abc abc = (abc)o;
-            abc2 abc2 = (abc2)o;
+            Iabc abc = (Iabc)o;
+            Iabc2 abc2 = (Iabc2)o;
             abc.xyz();
             abc2.xyz();
         }
 
-        public static void TestRuntimePolymorphism(abc obj)
+        public static void TestRuntimePolymorphism(Iabc obj)
         {
             obj.xyz();
         }
@@ -49,7 +49,7 @@ namespace Interfaces
         
     }
 
-    class program2:abc,abc2
+    class program2:Iabc,Iabc2
     {
         public void xyz()
         {
@@ -62,14 +62,14 @@ namespace Interfaces
         }
 
     }
-    class program3 : abc,abc2
+    class program3 : Iabc,Iabc2
     {
-         void abc.xyz()
+         void Iabc.xyz()
         {
             Console.WriteLine("i am xyz for abc");
         }
 
-         void abc2.xyz()
+         void Iabc2.xyz()
         {
             Console.WriteLine("i am xyz for abc2");
         }
@@ -84,16 +84,16 @@ namespace Interfaces
     }
 
 
-    interface abc
+    interface Iabc
     {
         void xyz();
     }
 
-    interface abc2
+    interface Iabc2
     {
         void xyz();
     }
 
-   interface  interface3:abc
+   interface  interface3:Iabc
    { }
 }
