@@ -28,6 +28,10 @@ namespace Extention_Methods
             obj.Draw();
             obj.Print();
 
+            string value = "shr";
+            var i=value.Convert(value);
+            Console.WriteLine(i); ;
+
             Console.Read();
         }
     }
