@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder Pattern", "Builder 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLogHelper", "NLogHelper\NLogHelper.csproj", "{FF831DC4-FF21-42FF-9DAD-A2F8BB17A78D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{0F9275E8-E898-48D3-BAAA-864FB4836042}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{FF831DC4-FF21-42FF-9DAD-A2F8BB17A78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF831DC4-FF21-42FF-9DAD-A2F8BB17A78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF831DC4-FF21-42FF-9DAD-A2F8BB17A78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9275E8-E898-48D3-BAAA-864FB4836042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9275E8-E898-48D3-BAAA-864FB4836042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9275E8-E898-48D3-BAAA-864FB4836042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9275E8-E898-48D3-BAAA-864FB4836042}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
