@@ -43,6 +43,11 @@ namespace CovarianceAndContravariance
             return new GeneralEx2();
         }
 
+        static GeneralEx1 metho4()
+        {
+            return new GeneralEx2();
+        }
+
         static void method2(GeneralEx1 ex1)
         {
 

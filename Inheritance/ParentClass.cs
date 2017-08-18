@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class ParentClass
+   class ParentClass
     {
         public virtual void Display()
         {
-            Console.WriteLine("Message from parent class");
+            Console.WriteLine(GetMessage());
+        }
+
+       private string GetMessage()
+        {
+            return "Message from parent class";
         }
     }
 }
