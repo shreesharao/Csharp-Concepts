@@ -47,6 +47,8 @@
     <Compile Include="Topic 11.cs" />
     <Compile Include="Topic 12.cs" />
     <Compile Include="Topic 13.cs" />
+    <Compile Include="Topic 14.cs" />
+    <Compile Include="Topic 15.cs" />
     <Compile Include="Topic 2.cs" />
     <Compile Include="Topic 1.cs" />
     <Compile Include="Topic 3.cs" />

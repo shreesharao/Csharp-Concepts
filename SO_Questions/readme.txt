@@ -14,3 +14,5 @@ Topic 10:beforefieldinit flag :strange behaviour in type initialization
 Topic 11:interface inheritance issue
 Topic 12:const and readonly keyword
 Topic 13:params keyword
+Topic 14:Lazy loading(Lazy<T> class)
+Topic 15:LazyInitializer class
