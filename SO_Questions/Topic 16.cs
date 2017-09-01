@@ -47,12 +47,12 @@ namespace DotNet_store
 
         //Below is another way of doing deep copy.Here class must be marked with [Serializable] attribute
 
-        //public T DeepCopyAnotherApproach<T>(T obj)
+        //public T DeepCopyAnotherApproach<T>()
         //{
         //    using (var ms = new MemoryStream())
         //    {
         //        var formatter = new BinaryFormatter();
-        //        formatter.Serialize(ms, obj);
+        //        formatter.Serialize(ms, this);
         //        ms.Position = 0;
 
         //        return (T)formatter.Deserialize(ms);
@@ -114,6 +114,8 @@ namespace DotNet_store
             DisplayValues(p1);
             Console.WriteLine("   p4 instance values:");
             DisplayValues(p4);
+
+           // Person p5 = p1.DeepCopyAnotherApproach<Person>();
         }
 
         public static void DisplayValues(Person p)
