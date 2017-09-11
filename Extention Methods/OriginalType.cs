@@ -16,7 +16,7 @@ namespace Extention_Methods
         //public void Draw()
         //{
 
-        //    Console.WriteLine("I am Draw i am in Original Type class");
+        //    Console.WriteLine("I am Draw method.I am in Original Type class");
         //}
     }
 }

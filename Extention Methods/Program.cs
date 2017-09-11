@@ -28,9 +28,10 @@ namespace Extention_Methods
             obj.Draw();
             obj.Print();
 
-            string value = "shr";
-            var i=value.Convert(value);
-            Console.WriteLine(i); ;
+            string str= "shreesha";
+            Console.WriteLine("Original string:{0}",str);
+            str=str.Reverse();
+            Console.WriteLine("Reversed string:{0}", str);
 
             Console.Read();
         }

@@ -8,17 +8,10 @@ namespace Extention_Methods
 {
     static class StringExtended
     {
-        public static int Convert(this string obj,string value)
+        public static string Reverse(this string obj)
         {
-            var intVlaue=0;
-            if(int.TryParse(value,out intVlaue))
-            {
-                return intVlaue;
-            }
-            else
-            {
-                return 0;
-            }
+            List<char> arr = obj.ToArray().Reverse().ToList();
+            return new string(arr.ToArray());
         }
     }
 }
