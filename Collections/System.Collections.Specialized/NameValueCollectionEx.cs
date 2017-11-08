@@ -24,6 +24,11 @@ namespace Collections.System.Collections.Specialized
                 Console.WriteLine("{0,-10}{1}",item,objNameValueCollection[item]);
                 //Console.WriteLine(item.Key+""+item.Value);
             }
+
+            foreach (string item in objNameValueCollection.GetValues("testkey"))
+            {
+                Console.WriteLine("{0}", item);
+            }
         }
     }
 }

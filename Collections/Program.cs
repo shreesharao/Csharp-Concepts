@@ -21,7 +21,7 @@ namespace Collections
             //new System_Collections_Ex.SortedListEx().Entry();
 
             //new System_Collections_Specialized_Ex.HybridDictionaryEx().Entry();
-            //new System_Collections_Specialized_Ex.NameValueCollectionEx().Entry();
+            new System_Collections_Specialized_Ex.NameValueCollectionEx().Entry();
            //new System_Collections_Specialized_Ex.OrderedDictionaryEx().Entry();
            // new System_Collections_Generic_Ex.HashSetEx().Entry();
             //new System_Collections_Generic_Ex.ListEx().Entry();
@@ -35,7 +35,7 @@ namespace Collections
             //new System_Collections_Concurrent_Ex.ConcurrentDictionaryEx().Entry();
             //new System_Collections_Concurrent_Ex.ConcurrentStackEx().Entry();
             //new System_Collections_Concurrent_Ex.ConcurrentQueueEx().Entry();
-            new System_Collections_Concurrent_Ex.OrderablePartitionerEx().Entry();
+            //new System_Collections_Concurrent_Ex.OrderablePartitionerEx().Entry();
            // new System_Collections_Concurrent_Ex.PartitionerEx().Entry();
             Console.Read();
         }
