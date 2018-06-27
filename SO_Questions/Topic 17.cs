@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
 
 namespace DotNet_store
 {
-    
+
     class Topic_17
     {
         Topic_17Test topic_17Test = null;
@@ -24,7 +20,21 @@ namespace DotNet_store
         public void TestParentAttributes()
         {
             var attrs = Attribute.GetCustomAttributes(topic_17Test.GetType());
+
+            //getting attribute on a method
+            var methodAttr = Attribute.GetCustomAttributes(topic_17Test.GetType().GetMethod("Test"));
+
+            //another way
+            //var memberInfo = topic_17Test.GetType().GetMember("Test"); GetMember returns MemebrInfo[]
+            //foreach (var attr in memberInfo[0].GetCustomAttributes())
+            //    if (attr is Topic_17AtrAttribute)
+            //        Console.WriteLine(attr.ToString());
+
             foreach (var attr in attrs)
+                if (attr is Topic_17AtrAttribute)
+                    Console.WriteLine(attr.ToString());
+
+            foreach (var attr in methodAttr)
                 if (attr is Topic_17AtrAttribute)
                     Console.WriteLine(attr.ToString());
         }
@@ -53,10 +63,16 @@ namespace DotNet_store
     [Topic_17Atr("hello", CustomDescription = "another custom description ")]
     class Topic_17Test
     {
-        [method: Topic_17Atr("hello", CustomDescription = "custom description")] //another way of specifying attribute target
+        
         public Topic_17Test()
         {
             Console.WriteLine("Topic_17Test class constructor");
+        }
+
+        [method: Topic_17Atr("hello", CustomDescription = "custom description on method")] //another way of specifying attribute target
+        public void Test()
+        {
+            Console.WriteLine("Message from Test method");
         }
     }
 
@@ -68,7 +84,7 @@ namespace DotNet_store
         }
     }
 
-    [AttributeUsage(AttributeTargets.All,AllowMultiple=true,Inherited=false)]    
+    [AttributeUsage(AttributeTargets.All,AllowMultiple=true,Inherited=true)]    
     class Topic_17AtrAttribute : Attribute
     {
       
