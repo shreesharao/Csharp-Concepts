@@ -19,3 +19,4 @@ Topic 15:LazyInitializer class
 Topic 16:shallow copy vs deep copy
 Topic 17:c# attributes
 Topic 18:c# indexer
+Topic 19:Nested classes
