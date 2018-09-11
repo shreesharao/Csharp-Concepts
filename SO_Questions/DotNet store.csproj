@@ -62,6 +62,7 @@
     <Compile Include="Topic 8.cs" />
     <Compile Include="Topic 9.cs" />
     <Compile Include="Topic19.cs" />
+    <Compile Include="Topic20.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
