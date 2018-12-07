@@ -61,8 +61,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipeServer", "PipeServer\Pi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipeClient", "PipeClient\PipeClient.csproj", "{DC212417-3015-45BF-A769-370A1D2C4AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQApp", "LINQApp\LINQApp.csproj", "{77435789-C94D-4B73-9061-0940749DFC5A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -173,10 +171,6 @@ Global
 		{DC212417-3015-45BF-A769-370A1D2C4AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC212417-3015-45BF-A769-370A1D2C4AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC212417-3015-45BF-A769-370A1D2C4AA9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77435789-C94D-4B73-9061-0940749DFC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77435789-C94D-4B73-9061-0940749DFC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77435789-C94D-4B73-9061-0940749DFC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77435789-C94D-4B73-9061-0940749DFC5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
