@@ -22,3 +22,5 @@ Topic 18:c# indexer
 Topic 19:Nested classes
 Topic 20:ExceptionDispatchInfo
 Topic 21:Using Conversion Operators
+Topic 22:Custom collection class with LINQ method support
+Topic 23:IEqualityComparer in Dictionary
